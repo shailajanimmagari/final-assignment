@@ -1,0 +1,35 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image:url('https://img.freepik.com/free-photo/bright-shopping-bags-pop-against-outoffocus-mall_91128-3438.jpg');
+            background-size: cover;
+            height:900%;
+            width: 100%;
+        }
+        h1{
+            color:blue;
+            font-family:'COPPERPLATE';
+            font-weight: bold;
+            font-size:40px; 
+        }
+        #shopping-list {
+            margin: 20px;
+            color:black;
+            font-family:'COPPERPLATE';
+            font-weight: bold;
+            font-size:30px;
+        }
+        .item {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            color:black;
+        }
+        .item input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .item.done {
+            text-decoration: line-through;
+            color:black;
+        }
+   
